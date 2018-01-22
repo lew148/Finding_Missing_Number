@@ -14,9 +14,9 @@ new_numbers.pop()
 
 
 # Below is the actual function, requested
-def find_missing(new_numbers, numbers):					
-					for i in numbers:
-										if i not in new_numbers:									
-															print(i)
+def find_missing(new_numbers, numbers):
+     for i in numbers:
+          if i not in new_numbers:
+              	print(i)
 
 find_missing(new_numbers, numbers)
