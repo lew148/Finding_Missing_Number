@@ -1,0 +1,22 @@
+import random
+
+# 'new_numbers' is the array after being shauffled and having one number removed.
+# 'numbers' is the array before any alterations, used for reference
+
+numbers = [1,2,3,4,5]
+new_numbers = [1,2,3,4,5]
+
+random.shuffle(new_numbers)
+# Shuffling new array
+
+new_numbers.pop()
+# Removing number from new array
+
+
+# Below is the actual function, requested
+def find_missing(new_numbers, numbers):					
+					for i in numbers:
+										if i not in new_numbers:									
+															print(i)
+
+find_missing(new_numbers, numbers)
